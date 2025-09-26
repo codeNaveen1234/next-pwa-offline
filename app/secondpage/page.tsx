@@ -12,7 +12,7 @@ export default function SecondPage() {
     setName(()=>data)
   },[])
   const handleRegisterClick = () => {
-    router.push('/home');
+    router.push('/');
   };
   return (
     <main className='w-full h-screen grid place-items-center'>
